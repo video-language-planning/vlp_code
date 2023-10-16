@@ -9,4 +9,4 @@ For more info see the [project webpage](https://video-language-planning.github.i
 
 ## Code
 
-Most of the code in the paper was run using Google infrastructure -- we are in the process of releasing Colab's illustrating the core results in the paper. Please see this [codebase](https://github.com/flow-diffusion/AVDC) to train text-to-video models
+Most of the code in the paper was run using Google infrastructure -- we are in the process of releasing Colab's illustrating the core results in the paper as well as the associated data. Please see this [codebase](https://github.com/flow-diffusion/AVDC) for code to train text-to-video models for robotics.
