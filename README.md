@@ -9,4 +9,4 @@ For more info see the [project webpage](https://video-language-planning.github.i
 
 ## Code
 
-Most of the code in the paper was run using Google infrastructure -- we are in the process of releasing Colab's illustrating the core results in the paper as well as the associated data. Please see this [codebase](https://github.com/UMass-Foundation-Model/COMBO/) for open source implementation of VLP using trained video and VLM models.
+Most of the code in the paper was run using Google infrastructure -- we have attached an illustrative colab notebook in example.ipynb to roughly illustrate the code for VLP. Please see this [codebase](https://github.com/UMass-Foundation-Model/COMBO/) for open source implementation of VLP which include code for training video and VLM models as well for tree search.
