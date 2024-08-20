@@ -10,3 +10,7 @@ For more info see the [project webpage](https://video-language-planning.github.i
 ## Code
 
 Most of the code in the paper was run using Google infrastructure -- we have attached an [illustrative colab notebook](https://github.com/video-language-planning/vlp_code/blob/master/example.ipynb) to illustrate the code for VLP. Please see this [codebase](https://github.com/UMass-Foundation-Model/COMBO/) for open source implementation of VLP which include code for training video and VLM models as well for tree search.
+
+## Data
+
+The long horizon dataset used in the paper can be found at the GS bucket: gs://gresearch/robotics/language_table/captions/
