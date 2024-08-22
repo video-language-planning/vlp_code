@@ -14,3 +14,12 @@ Most of the code in the paper was run using Google infrastructure -- we have att
 ## Data
 
 The long horizon dataset used in the paper can be found at the GS bucket: gs://gresearch/robotics/language_table/captions/
+
+Each loaded sample will consist of:
+long_horizon_instructions
+start_times
+captions
+frames
+end_times
+
+
