@@ -16,10 +16,24 @@ Most of the code in the paper was run using Google infrastructure -- we have att
 The long horizon dataset used in the paper can be found at the GS bucket: gs://gresearch/robotics/language_table/captions/
 
 Each loaded sample will consist of:
+
 long_horizon_instructions
 start_times
 captions
 frames
 end_times
 
+In this dataset, long_horizon_instructions correspond to long-horizon text goal of the video, while captions are labels for
+the short horizon text goal in the video, where start_times and end_times corresponds to the frames each short horizon text
+goal corresponds to.
 
+## Bibtex
+
+```
+@article{du2023video,
+  title={Video Language Planning},
+  author={Du, Yilun and Yang, Mengjiao and Florence, Pete and Xia, Fei and Wahid, Ayzaan and Ichter, Brian and Sermanet, Pierre and Yu, Tianhe and Abbeel, Pieter and Tenenbaum, Joshua B and others},
+  journal={arXiv preprint arXiv:2310.10625},
+  year={2023}
+}
+```
